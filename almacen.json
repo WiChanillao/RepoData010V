@@ -1,0 +1,186 @@
+{
+  "eventos": [
+    {
+      "id": "1",
+      "nombre": "Evento 1",
+      "tipo": "Evento",
+      "descripcion": "Descripción del Evento 1 que abarca varios temas interesantes.",
+      "fecha": "2024-10-01",
+      "hora": "10:00",
+      "ubicacion": "Auditorio Principal",
+      "cupos": 100,
+      "imagen": "assets/img/evento.png",
+      "registrado": false
+    },
+    {
+      "id": "2",
+      "nombre": "Evento 2",
+      "tipo": "Evento",
+      "descripcion": "Descripción del Evento 2 enfocado en la tecnología y su impacto.",
+      "fecha": "2024-10-05",
+      "hora": "14:00",
+      "ubicacion": "Sala de Conferencias B",
+      "cupos": 30,
+      "imagen": "assets/img/evento.png",
+      "registrado": true
+    },
+    {
+      "id": "3",
+      "nombre": "Evento 3",
+      "tipo": "Evento",
+      "descripcion": "Descripción del Evento 3, con invitados especiales y ponencias.",
+      "fecha": "2024-10-10",
+      "hora": "09:00",
+      "ubicacion": "Teatro Municipal",
+      "cupos": 70,
+      "imagen": "assets/img/evento.png",
+      "registrado": true
+    },
+    {
+      "id": "4",
+      "nombre": "Actividad 1",
+      "tipo": "Actividad",
+      "descripcion": "Actividad 1 orientada a mejorar habilidades interpersonales.",
+      "fecha": "2024-10-12",
+      "hora": "11:00",
+      "ubicacion": "Sala de Talleres",
+      "cupos": 100,
+      "imagen": "assets/img/evento.png",
+      "registrado": false
+    },
+    {
+      "id": "5",
+      "nombre": "Actividad 2",
+      "tipo": "Actividad",
+      "descripcion": "Actividad 2 enfocada en el trabajo en equipo.",
+      "fecha": "2024-10-15",
+      "hora": "15:00",
+      "ubicacion": "Sala Multiusos",
+      "cupos": 100,
+      "imagen": "assets/img/evento.png",
+      "registrado": true
+    },
+    {
+      "id": "6",
+      "nombre": "Actividad 3",
+      "tipo": "Actividad",
+      "descripcion": "Actividad 3 para fomentar la creatividad.",
+      "fecha": "2024-10-20",
+      "hora": "13:00",
+      "ubicacion": "Espacio Abierto",
+      "cupos": 100,
+      "imagen": "assets/img/evento.png",
+      "registrado": false
+    },
+    {
+      "id": "7",
+      "nombre": "Seminario 1",
+      "tipo": "Seminario",
+      "descripcion": "Seminario 1 sobre tendencias en la industria.",
+      "fecha": "2024-10-25",
+      "hora": "10:00",
+      "ubicacion": "Auditorio A",
+      "cupos": 100,
+      "imagen": "assets/img/evento.png",
+      "registrado": false
+    },
+    {
+      "id": "8",
+      "nombre": "Seminario 2",
+      "tipo": "Seminario",
+      "descripcion": "Seminario 2 que presenta casos de éxito.",
+      "fecha": "2024-10-28",
+      "hora": "12:00",
+      "ubicacion": "Auditorio B",
+      "cupos": 100,
+      "imagen": "assets/img/evento.png",
+      "registrado": false
+    },
+    {
+      "id": "9",
+      "nombre": "Seminario 3",
+      "tipo": "Seminario",
+      "descripcion": "Seminario 3 sobre el futuro del trabajo.",
+      "fecha": "2024-10-30",
+      "hora": "16:00",
+      "ubicacion": "Sala de Conferencias C",
+      "cupos": 100,
+      "imagen": "assets/img/evento.png",
+      "registrado": false
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Cosito",
+      "apellido": "Machuca",
+      "email": "usuario1@duocuc.cl",
+      "password": "duoc1234",
+      "carrera": "Ingeniería Informatica",
+      "telefono": "+56912345678",
+      "isactive": true,
+      "img_perfil": "assets/img/evento.png"
+    },
+    {
+      "id": "2",
+      "nombre": "Alonso",
+      "apellido": "Pardo",
+      "email": "usuario2@duocuc.cl",
+      "password": "duoc1234",
+      "carrera": "Ingeniería Informatica",
+      "telefono": "",
+      "isactive": true,
+      "img_perfil": "assets/img/evento.png"
+    },
+    {
+      "id": "3",
+      "nombre": "YujuYuju",
+      "apellido": "Sarriagada",
+      "email": "usuario3@duocuc.cl",
+      "password": "duoc1234",
+      "carrera": "Ingeniería Informatica",
+      "telefono": "",
+      "isactive": true,
+      "img_perfil": "assets/img/evento.png"
+    },
+    {
+      "id": "4",
+      "nombre": "Marselo",
+      "apellido": "Pollo",
+      "email": "usuario4@duocuc.cl",
+      "password": "duoc1234",
+      "carrera": "Ingeniería en Redes",
+      "telefono": "",
+      "isactive": true,
+      "img_perfil": "assets/img/evento.png"
+    }
+  ],
+  "carreras": [
+    {
+      "id": "1",
+      "nombre": "Ingeniería Informatica"
+    },
+    {
+      "id": "2",
+      "nombre": "Analista Programador"
+    },
+    {
+      "id": "3",
+      "nombre": "Ingeniería en Redes"
+    }
+  ],
+  "tipo_evento": [
+    {
+      "id": "1",
+      "nombre": "Evento"
+    },
+    {
+      "id": "2",
+      "nombre": "Actividad"
+    },
+    {
+      "id": "3",
+      "nombre": "Seminario"
+    }
+  ]
+}

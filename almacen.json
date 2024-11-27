@@ -4,13 +4,13 @@
       "id": "1",
       "nombre": "Evento 1",
       "tipo": "Evento",
-      "descripcion": "Descripción del Evento 1 que abarca varios temas interesantes.",
+      "descripcion": "Evento que abarca varios temas interesantes.",
       "fecha": "2024-10-01",
       "hora": "10:00",
       "ubicacion": "Auditorio Principal",
       "cupos": 100,
       "imagen": "assets/img/evento.png",
-      "registrado": false
+      "usuariosRegistrados": []
     },
     {
       "id": "2",
@@ -22,7 +22,7 @@
       "ubicacion": "Sala de Conferencias B",
       "cupos": 30,
       "imagen": "assets/img/evento.png",
-      "registrado": true
+      "usuariosRegistrados": []
     },
     {
       "id": "3",
@@ -34,7 +34,10 @@
       "ubicacion": "Teatro Municipal",
       "cupos": 70,
       "imagen": "assets/img/evento.png",
-      "registrado": true
+      "usuariosRegistrados": [
+        "1",
+        "2"
+      ]
     },
     {
       "id": "4",
@@ -46,7 +49,9 @@
       "ubicacion": "Sala de Talleres",
       "cupos": 100,
       "imagen": "assets/img/evento.png",
-      "registrado": false
+      "usuariosRegistrados": [
+        "1"
+      ]
     },
     {
       "id": "5",
@@ -58,7 +63,7 @@
       "ubicacion": "Sala Multiusos",
       "cupos": 100,
       "imagen": "assets/img/evento.png",
-      "registrado": true
+      "usuariosRegistrados": []
     },
     {
       "id": "6",
@@ -70,7 +75,7 @@
       "ubicacion": "Espacio Abierto",
       "cupos": 100,
       "imagen": "assets/img/evento.png",
-      "registrado": false
+      "usuariosRegistrados": []
     },
     {
       "id": "7",
@@ -82,7 +87,9 @@
       "ubicacion": "Auditorio A",
       "cupos": 100,
       "imagen": "assets/img/evento.png",
-      "registrado": false
+      "usuariosRegistrados": [
+        "2"
+      ]
     },
     {
       "id": "8",
@@ -94,7 +101,7 @@
       "ubicacion": "Auditorio B",
       "cupos": 100,
       "imagen": "assets/img/evento.png",
-      "registrado": false
+      "usuariosRegistrados": []
     },
     {
       "id": "9",
@@ -106,23 +113,25 @@
       "ubicacion": "Sala de Conferencias C",
       "cupos": 100,
       "imagen": "assets/img/evento.png",
-      "registrado": false
+      "usuariosRegistrados": []
     }
   ],
   "usuarios": [
     {
       "id": "1",
-      "nombre": "Cosito",
+      "username": "CoMachuca",
+      "nombre": "Cosita",
       "apellido": "Machuca",
       "email": "usuario1@duocuc.cl",
       "password": "duoc1234",
       "carrera": "Ingeniería Informatica",
-      "telefono": "+56912345678",
+      "telefono": "+569123456789",
       "isactive": true,
-      "img_perfil": "assets/img/evento.png"
+      "eventosRegistrados": []
     },
     {
       "id": "2",
+      "username": "AlonPardo",
       "nombre": "Alonso",
       "apellido": "Pardo",
       "email": "usuario2@duocuc.cl",
@@ -130,10 +139,15 @@
       "carrera": "Ingeniería Informatica",
       "telefono": "",
       "isactive": true,
-      "img_perfil": "assets/img/evento.png"
+      "eventosRegistrados": [
+        "2",
+        "5",
+        "3"
+      ]
     },
     {
       "id": "3",
+      "username": "Yuju",
       "nombre": "YujuYuju",
       "apellido": "Sarriagada",
       "email": "usuario3@duocuc.cl",
@@ -141,10 +155,14 @@
       "carrera": "Ingeniería Informatica",
       "telefono": "",
       "isactive": true,
-      "img_perfil": "assets/img/evento.png"
+      "eventosRegistrados": [
+        "3",
+        "5"
+      ]
     },
     {
       "id": "4",
+      "username": "Pavo",
       "nombre": "Marselo",
       "apellido": "Pollo",
       "email": "usuario4@duocuc.cl",
@@ -152,7 +170,7 @@
       "carrera": "Ingeniería en Redes",
       "telefono": "",
       "isactive": true,
-      "img_perfil": "assets/img/evento.png"
+      "eventosRegistrados": []
     }
   ],
   "carreras": [
@@ -170,6 +188,20 @@
     }
   ],
   "tipo_evento": [
+    {
+      "id": "1",
+      "nombre": "Evento"
+    },
+    {
+      "id": "2",
+      "nombre": "Actividad"
+    },
+    {
+      "id": "3",
+      "nombre": "Seminario"
+    }
+  ],
+  "imagen": [
     {
       "id": "1",
       "nombre": "Evento"
